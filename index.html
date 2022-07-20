@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      padding: 20px;
+      margin: 50px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body id="body">
+  <header>
+    <nav>
+      <div class="first-links desktop-nav">
+        <div><img src="/images/logo.svg" alt="logo" class="logo"></div>
+        <div>
+          <div id="select-field">
+            <p id="select-text">Features</p>
+            <img src="images/icon-arrow-down.svg" id="arrow-icon" aria-hidden="true">
+          </div>
+          <ul id="list" class="hide">
+            <li class="list-items">
+              <img src="images/icon-todo.svg" alt="" aria-hidden="true">
+              <p>Todo List</p>
+            </li>
+            <li class="list-items">
+              <img src="images/icon-calendar.svg" alt="" aria-hidden="true">
+              <p>Calenders</p>
+            </li>
+            <li class="list-items">
+              <img src="images/icon-reminders.svg" alt="" aria-hidden="true">
+              <p>Reminders</p>
+            </li>
+            <li class="list-items">
+              <img src="images/icon-planning.svg" alt="" aria-hidden="true">
+              <p>Planning</p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Second dropdown -->
+
+        <div>
+          <div id="select-field2">
+            <p id="select-text2">Company</p>
+            <img src="images/icon-arrow-down.svg" id="arrow-icon2" aria-hidden="true">
+          </div>
+          <ul id="list2" class="hide">
+            <li class="list-items2">
+              <p>History</p>
+            </li>
+            <li class="list-items2">
+
+              <p>Our Team</p>
+            </li>
+            <li class="list-items2">
+              <p>Blog</p>
+            </li>
+          </ul>
+        </div>
+        <!-- 2 links -->
+
+        <a class="links" href="#">Careers</a>
+        <a class="links" href="#">About</a>
+      </div>
+
+      <!-- right side links -->
+
+      <div class="login-reg-container">
+        <a href="">Login</a>
+        <a href="" class="btn btn2">Register</a>
+      </div>
+
+
+      <!-- Mobile nav -->
+      <div class=" mobile-nav">
+        <div>
+          <div>
+            <div id="select-field">
+              <p id="select-text">Features</p>
+              <img src="images/icon-arrow-down.svg" id="arrow-icon" aria-hidden="true">
+            </div>
+            <ul id="list" class="hide">
+              <li class="list-items">
+                <img src="images/icon-todo.svg" alt="" aria-hidden="true">
+                <p>Todo List</p>
+              </li>
+              <li class="list-items">
+                <img src="images/icon-calendar.svg" alt="" aria-hidden="true">
+                <p>Calenders</p>
+              </li>
+              <li class="list-items">
+                <img src="images/icon-reminders.svg" alt="" aria-hidden="true">
+                <p>Reminders</p>
+              </li>
+              <li class="list-items">
+                <img src="images/icon-planning.svg" alt="" aria-hidden="true">
+                <p>Planning</p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Second dropdown -->
+
+          <div>
+            <div id="select-field2">
+              <p id="select-text2">Company</p>
+              <img src="images/icon-arrow-down.svg" id="arrow-icon2" aria-hidden="true">
+            </div>
+            <ul id="list2" class="hide">
+              <li class="list-items2">
+                <p>History</p>
+              </li>
+              <li class="list-items2">
+
+                <p>Our Team</p>
+              </li>
+              <li class="list-items2">
+                <p>Blog</p>
+              </li>
+            </ul>
+          </div>
+          <!-- 2 links -->
+          <div><a class="links" href="#">Careers</a></div>
+          <div><a class="links" href="#">About</a></div>
+
+
+        </div>
+
+        <!-- right side links -->
+
+        <div class="">
+          <div><a href="">Login</a></div>
+          <div><a href="" class="btn btn2">Register</a></div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <main>
+    <div class="flex-container">
+      <div class="flex2"></div>
+      <div class="flex1">
+        <div class="text-part">
+          <div class="margin">
+            <h1>Make <br class="space"> remote work</h1>
+          </div>
+          <div class="text margin">
+            <p>Get your team in sync, no matter your location.
+              Streamline processes,
+              create team rituals, and watch productivity soar.
+            </p>
+          </div>
+          <div class="margin">
+            <a href="#" class="action-btn btn">Learn more</a>
+          </div>
+          <div class="img-wrapper">
+            <img src="images/client-databiz.svg" class="sponsors">
+            <img src="images/client-audiophile.svg" class="sponsors">
+            <img src="images/client-meet.svg" class="sponsors">
+            <img src="images/client-maker.svg" class="sponsors">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.twitter.com/fizy_hector">Otuekong Arthur</a>.
+    </div>
+  </footer>
+  <script src="script/script.js"></script>
+</body>
+
+</html>
